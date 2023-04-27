@@ -10,56 +10,7 @@
     @vite(['resources/js/app.js'])
 </head>
 <body>
-    <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <h1 class="logo"><a href="index.html">Ardo Damarjati</a></h1>
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#aboutme">About Me</a></li>
-          <li><a class="nav-link scrollto" href="#principle">Principle</a></li>
-          <li><a class="nav-link scrollto" href="#education">Education</a></li>
-          <li><a class="nav-link scrollto " href="#achievement">Achievement</a></li>
-          <li><a class="nav-link scrollto " href="#skills">Skills</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle" ></i>
-      </nav>
-    </div>
-  </header>
-    
-    <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/bg.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h3>Ardo Damarjati</h3>
-                    <p>Bersama Kecintaannya dengan Alam</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="img/chess.jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h3>Ardo Damarjati</h3>
-                    <p>Bersama Kecintaanya dengan Catur</p>
-                </div>
-            </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-    </div>
-
+    @include('layouts.header')
     <!-- Main Content -->
 
     <!-- Section 1 -->
@@ -67,18 +18,18 @@
         <div class="flex-container1">
             <div class="dodo-image-container" data-aos="fade-right">
                 <img class="dodo-image" src="img/dodo.png">
-            </div>    
+            </div>
             <div class="section1-description" data-aos="fade-left">
                 <h1>Ardo Damarjati</h1>
                 <div class="line-in-section1"></div>
                 <p>Saya adalah seorang pemuda sederhana yang menyukai alam namun tidak sanggup hidup di alam. Saya lahir
                     di Klaten pada tanggal 30 Juni 2003. Saya memiliki sifat yang unik yaitu sifat pantang menyerah dan membenci kegagalan.
                     Tidak hanya sifat yang unik, saya juga memiliki hobi yang unik yaitu mengisi waktu luang dengan kesendirian
-                    sembari membaca buku yang berkaitan dengan sejarah. Saat ini saya sedang menekuni tanggung jawab sebagai mahasiswa penerima 
+                    sembari membaca buku yang berkaitan dengan sejarah. Saat ini saya sedang menekuni tanggung jawab sebagai mahasiswa penerima
                     beasiswa PPTI BCA angkatan ke 12. Sebagai bagian dari PPTI 12, tentunya saya terus berusaha untuk mengembangkan kemampuan Saya
                     dalam bidang Informasi Teknologi, salah satunya dibidang Web Development dan Database Management .
                 </p>
-            </div>    
+            </div>
         </div>
     </div>
 
@@ -89,7 +40,7 @@
                 <img src="img/mission.svg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Mission</h5>
-                    <p class="card-text">Menjadi pribadi unggul dengan penuh kompetensi sehingga mampu 
+                    <p class="card-text">Menjadi pribadi unggul dengan penuh kompetensi sehingga mampu
                         memberikan dampak positif kepada masyarakat luas.
                     </p>
                 </div>
@@ -190,7 +141,7 @@
             <div class="img-section4" data-aos="fade-left">
                 <img class="dodo4-img" src="img/dodo4 (2).png">
             </div>
-        </div>  
+        </div>
     </div>
 
     <!-- Section 6 -->
@@ -250,8 +201,22 @@
         </section>
     </div>
 
+    {{-- special --}}
+    <div id="device" class="special">
+        <div class="special-title" data-aos="fade-up">
+            <div class="section-title-special">
+                <h2>My Device</h2>
+            </div>
+        </div>
+        <div class="button-container" data-aos="fade-up">
+            <div class="wrapper">
+                <a href="/device">Go to My Device</a>
+            </div>
+        </div>
+    </div>
+
     <!-- Section 7 -->
-    <div id="contact" class="section-box-7"> 
+    <div id="contact" class="section-box-7">
         <section id="contact" class="contact">
             <div class="container" data-aos="fade-up">
 
@@ -337,9 +302,9 @@
         </div>
         </div>
     </footer>
-    
+
     <script src="js/app.js"></script>
-    
+
     <script>
         var header = document.querySelector('header');
 
@@ -356,7 +321,7 @@
     <script>
         AOS.init();
     </script>
-    
+
 
 
 </body>
