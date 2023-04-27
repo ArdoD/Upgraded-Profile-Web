@@ -1,10 +1,11 @@
-![banner](http://url/to/banner-navbar.png)
-![aboutme](http://url/to/aboutme.png)
-![principle](http://url/to/principle.png)
-![education](http://url/to/education.png)
-![achievement](http://url/to/achievement.png)
-![skills](http://url/to/skills.png)
-![contact](http://url/to/contact.png)
+# Tampilan Website Ardo Damarjati // 2502040455
+![alt text](https://github.com/ArdoD/profile_web/blob/master/public/img/banner-navbar.png)
+![alt text](https://github.com/ArdoD/profile_web/blob/master/public/img/aboutme.png)
+![alt text](https://github.com/ArdoD/profile_web/blob/master/public/img/principle.png)
+![alt text](https://github.com/ArdoD/profile_web/blob/master/public/img/education.png)
+![alt text](https://github.com/ArdoD/profile_web/blob/master/public/img/achievement.png)
+![alt text](https://github.com/ArdoD/profile_web/blob/master/public/img/skills.png)
+![alt text](https://github.com/ArdoD/profile_web/blob/master/public/img/contact.png)
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
